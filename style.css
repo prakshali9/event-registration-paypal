@@ -1,0 +1,58 @@
+/* Overall page style */
+body {
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Styling for the registration form container */
+  form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  /* Header style */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Label styling */
+  label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555555;
+  }
+  
+  /* Input fields styling */
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input focus state */
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #0070ba;
+    outline: none;
+  }
+  
+  /* PayPal button container spacing */
+  #paypal-button-container {
+    margin-top: 15px;
+  }
+  
